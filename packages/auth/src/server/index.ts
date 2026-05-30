@@ -1,6 +1,6 @@
 import { betterAuth } from "better-auth";
 import { prismaAdapter } from "@better-auth/prisma-adapter";
-import type { PrismaClient } from "@creator-suite/db";
+import type { PrismaClient } from "@creator-suite/db-pg";
 import { authConfig } from "../config/index";
 
 export interface WelcomeEmailUser {
