@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
     "@creator-suite/auth",
     "@creator-suite/db-pg",
     "@creator-suite/email",
+    "@creator-suite/analytics",
     "@repo/ui"
   ]
 };

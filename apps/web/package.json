@@ -15,6 +15,7 @@
   "dependencies": {
     "@astrojs/node": "^9.1.2",
     "@astrojs/react": "^5.0.6",
+    "@creator-suite/analytics": "workspace:^",
     "@creator-suite/auth": "workspace:*",
     "@creator-suite/db-pg": "workspace:*",
     "@creator-suite/email": "workspace:*",
