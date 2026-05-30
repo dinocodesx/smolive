@@ -1,7 +1,7 @@
 /**
  * Abstraction layer for email delivery persistence.
  * The email package depends on this interface, not on Prisma directly.
- * The concrete Prisma-backed implementation lives in @creator-suite/db.
+ * The concrete Prisma-backed implementation lives in @creator-suite/db-pg.
  */
 
 export interface DeliveryRecord {

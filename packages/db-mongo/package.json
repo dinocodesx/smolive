@@ -1,0 +1,26 @@
+{
+  "name": "@creator-suite/db-mongo",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check-types": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "mongoose": "^8.12.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5"
+  }
+}

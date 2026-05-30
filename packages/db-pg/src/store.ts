@@ -57,7 +57,7 @@ function toJsonValue(value: unknown): Prisma.InputJsonValue {
  * Pass this to createEmailService() instead of passing the PrismaClient directly.
  *
  * @example
- * import { prisma, createPrismaDeliveryStore } from "@creator-suite/db";
+ * import { prisma, createPrismaDeliveryStore } from "@creator-suite/db-pg";
  * import { createEmailService } from "@creator-suite/email";
  *
  * const emailService = createEmailService({

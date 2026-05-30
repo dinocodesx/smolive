@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@creator-suite/auth": "workspace:*",
-    "@creator-suite/db": "workspace:*",
+    "@creator-suite/db-pg": "workspace:*",
     "@creator-suite/email": "workspace:*",
     "better-auth": "^1.6.11",
     "next": "16.2.6",

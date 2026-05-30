@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@better-auth/prisma-adapter": "^1.6.11",
-    "@creator-suite/db": "workspace:*",
+    "@creator-suite/db-pg": "workspace:*",
     "@creator-suite/email": "workspace:*",
     "better-auth": "^1.6.11",
     "zod": "^4.4.3"

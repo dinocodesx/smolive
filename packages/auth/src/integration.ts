@@ -1,4 +1,4 @@
-import { prisma, createPrismaDeliveryStore } from "@creator-suite/db";
+import { prisma, createPrismaDeliveryStore } from "@creator-suite/db-pg";
 import { createEmailService, readEmailEnvironment } from "@creator-suite/email";
 import type { EmailService } from "@creator-suite/email";
 import { createAuth } from "./server/index";

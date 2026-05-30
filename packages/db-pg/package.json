@@ -1,5 +1,5 @@
 {
-  "name": "@creator-suite/db",
+  "name": "@creator-suite/db-pg",
   "version": "0.0.0",
   "private": true,
   "type": "module",
